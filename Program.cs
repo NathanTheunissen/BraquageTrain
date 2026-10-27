@@ -1,4 +1,6 @@
-﻿namespace Braquage_train;
+﻿using System.Diagnostics;
+
+namespace Braquage_train;
 
 class Program
 {
@@ -23,5 +25,18 @@ class Program
             BONUS 1 : permettre à l'utilisateur de choisir le nombre de wagons
             BONUS 2 : enregistrer l'ensemble du butin trouvé et l'afficher à la fin
          */
+
+        int wagonstotaux = 4;
+        int coffrestotaux = 3;
+
+        Console.WriteLine("Les wagons vont être inspectés");
+        for (int i = 1; i <= wagonstotaux; i++);
+        {
+            for (int j = 1; j <= coffrestotaux; j++);
+            {
+                Console.WriteLine("Le wagon " + wagonstotaux + " et le coffre " + coffrestotaux + " ont été inspecté");
+            }
+        }
+        Console.WriteLine("Tous les wagons et coffres ont été inspecté");
     }
 }
