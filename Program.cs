@@ -30,11 +30,11 @@ class Program
         int coffrestotaux = 3;
 
         Console.WriteLine("Les wagons vont être inspectés");
-        for (int i = 1; i <= wagonstotaux; i++);
+        for (int i = 1; i <= wagonstotaux; i++)
         {
-            for (int j = 1; j <= coffrestotaux; j++);
+            for (int j = 1; j <= coffrestotaux; j++)
             {
-                Console.WriteLine("Le wagon " + wagonstotaux + " et le coffre " + coffrestotaux + " ont été inspecté");
+                Console.WriteLine("Le wagon " + i + " et le coffre " + j + " ont été inspecté");
             }
         }
         Console.WriteLine("Tous les wagons et coffres ont été inspecté");
